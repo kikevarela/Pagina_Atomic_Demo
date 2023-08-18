@@ -7,6 +7,9 @@ img
     display: block;
     max-width: 100%;
 }
+body{
+  overflow-x: hidden;
+}
 @media (min-width:360px)
 {
     .header .contenedor
