@@ -369,7 +369,7 @@ background: black;
 .pie
 {
     width: 103%;
-    height: 230px;
+    height: 100%;
     margin-left: -8px;
     background: black;
     color: white;
@@ -424,5 +424,128 @@ background: black;
 width: 130px;
 height: 65px;
 margin-left: 33%;
+}
+}
+
+@media (min-width:412px)
+{
+    .header .contenedor
+    {
+        display: flex;
+        justify-content: space-between;
+        background: black;
+        color: white;
+        margin-left: -8px;
+        margin-top: -9px;
+        width: 103%;
+        height: 90px;
+    }
+.icono_menu
+{
+    display: block;
+    width: 36px;
+    height: 30px;
+    /*border: 6px solid black;*/
+    border-radius: 5px;
+    margin-left: auto;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.menu_nav
+{
+    position: absolute;
+    top: 67px;
+    left: -100%;
+    width: 100%;
+    transition: all 1s;
+    background: black;
+    z-index: 1000;
+
+}
+.menu
+{
+list-style: none;
+padding:0;
+margin:0;
+background: black;
+}
+.menu_link_1
+{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    font:bold;
+    color: rgb(255, 255, 255);
+    align-content: space-between;
+}
+.menu_link_2
+{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    font:bold;
+    color: rgb(255, 255, 255);
+    align-content: space-between;
+}
+.menu_link_3
+{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    font:bold;
+    color: rgb(255, 255, 255);
+    align-content: space-between;
+}
+.menu_link_4
+{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    font:bold;
+    color: rgb(255, 255, 255);
+    align-content: space-between;
+}
+.menu_link_1:hover
+{
+    color: rgb(247, 250, 253);
+    background-image: url(imagenes/link_1.jpg);
+    opacity: 0.7;
+}
+.menu_link_2:hover
+{
+    color: rgb(247, 250, 253);
+    background-image: url(imagenes/media.jpg);
+    opacity: 0.7;
+}
+.menu_link_3:hover
+{
+    color: rgb(247, 250, 253);
+    background-image: url(imagenes/cds.jpg);
+    opacity: 0.7;
+}
+.menu_link_4:hover
+{
+    color: rgb(247, 250, 253);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-image: url(imagenes/item_4.jpg);
+    opacity: 0.7;
+}
+.mostrar
+{
+    left: 0;
+}
+.iconos_menu
+{
+    padding-left: 12px;
+    width: 30px;
 }
 }
