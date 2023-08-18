@@ -20,8 +20,8 @@ img
         width: 360px;
         height: 90px;
     }
-.icono_menu
-{
+    .icono_menu
+    {
     display: block;
     width: 36px;
     height: 30px;
@@ -31,9 +31,9 @@ img
     margin-top: 25px;
     cursor: pointer;
     margin-right: 5px;
-}
-.menu_nav
-{
+    }
+    .menu_nav
+    {
     position: absolute;
     top: 67px;
     left: -100%;
@@ -856,7 +856,7 @@ margin-left: 33%;
         color: white;
         margin-left: -8px;
         margin-top: -9px;
-        width: 375px;
+        width: 412px;
         height: 90px;
     }
 .icono_menu
@@ -1207,7 +1207,7 @@ background: black;
 }
 .pie
 {
-    width: 375px;
+    width: 412px;
     height: 100%;
     margin-left: -8px;
     background: black;
@@ -1685,7 +1685,7 @@ height: 65px;
 margin-left: 33%;
 }
 }
-@media (min-width:412px)
+@media (min-width:768px)
 {
     .header .contenedor
     {
@@ -1695,7 +1695,7 @@ margin-left: 33%;
         color: white;
         margin-left: -8px;
         margin-top: -9px;
-        width: 375px;
+        width: 768px;
         height: 90px;
     }
 .icono_menu
@@ -2039,7 +2039,7 @@ background: black;
   background-color: #fff;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 800px) {
   .swiper-navBtn {
     display: none;
   }
