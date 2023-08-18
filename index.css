@@ -7,7 +7,11 @@ img
     display: block;
     max-width: 100%;
 }
-
+body
+{
+    width: 100%;
+ overflow-x: hidden;
+}
 @media (min-width:360px)
 {
     .header .contenedor
