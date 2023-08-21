@@ -146,7 +146,6 @@ background: black;
     margin-bottom: 60px;
     display: block;
     position: relative;
-    border: solid 3px black;
     left: -5px;
 
 }
@@ -296,14 +295,13 @@ background: black;
 
 }
 .mas{
-    width: 350px;
+    width: 98%;
     height: 600px;
     left: -5px;
     background: white;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 30px;
     text-align: center;
-    border: solid 2px blue;
     margin-left: -5px;
 
 }
@@ -311,7 +309,6 @@ background: black;
   max-width: 1400px;
   width: 100%;
   padding: 60px 0;
-  border: solid 2px red;
 }
 .slide-container {
   margin: 0 30px;
