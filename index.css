@@ -162,6 +162,14 @@ background: black;
 {
     scale: 0.98;
 }
+.tarjeta2:active
+{
+    scale: 0.98;
+}
+.tarjeta3:active
+{
+    scale: 0.98;
+}
 .fondo1
 {
     width: 270px;
@@ -174,15 +182,15 @@ background: black;
 }
 .Texto_Principal
 {
-    width: 180px;
-    height: 80px;
+    width: 200px;
+    height: 70px;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 20px;
     position: static;
     color: whitesmoke;
     position: absolute;
     top: 130px;
-    left: 50px;
+    left: 40px;
     background-color: rgba(50, 49, 49, 0.425);
     border-bottom: 3px solid whitesmoke;
     
@@ -199,7 +207,7 @@ background: black;
     color: white;
     background-color: rgba(50, 49, 49, 0.425);
     top: 10px;
-    left: 10px;
+    left: 7px;
     position: absolute;
 }
 
@@ -227,7 +235,7 @@ background: black;
     position: static;
     color: whitesmoke;
     position: absolute;
-    top: 540px;
+    top: 510px;
     left: 100px;
     background-color: rgba(50, 49, 49, 0.425);
     border-bottom: 3px solid whitesmoke;
@@ -244,7 +252,7 @@ background: black;
     font-size: 13px;
     color: white;
     background-color: rgba(50, 49, 49, 0.425);
-    top: 420px;
+    top: 390px;
     left: 50px;
     position: absolute;
 
@@ -272,7 +280,7 @@ background: black;
     position: static;
     color: whitesmoke;
     position: absolute;
-    top: 840px;
+    top: 820px;
     left: 98px;
     background-color: rgba(50, 49, 49, 0.425);
     border-bottom: 3px solid whitesmoke;
@@ -289,7 +297,7 @@ background: black;
     font-size: 13px;
     color: white;
     background-color: rgba(50, 49, 49, 0.425);
-    top: 730px;
+    top: 700px;
     left: 52px;
     position: absolute;
 
