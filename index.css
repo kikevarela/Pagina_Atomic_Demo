@@ -8,11 +8,13 @@ img
     max-width: 100%;
 
 }
-html,
-body
+html, body
 {
  width: 100%;
  overflow-x: hidden;
+ margin: 0;
+ padding: 0;
+
 }
 
 @media (min-width:360px)
@@ -23,9 +25,7 @@ body
         justify-content: space-between;
         background: black;
         color: white;
-        margin-left: -8px;
-        margin-top: -8px;
-        width: 98%;
+        width: 100%;
         height: 90px;
     }
     .icono_menu
@@ -141,14 +141,12 @@ background: black;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 30px;
     text-align: center;
-    width: 96%;
+    width: 100%;
     height: 1050px;
     margin-top: 10px;
     margin-bottom: 60px;
     display: block;
     position: relative;
-    left: -5px;
-    border: solid 1px black;
 
 }
 .tarjeta1
@@ -297,16 +295,13 @@ background: black;
 
 }
 .mas{
-    width: 96%;
+    width: 100%;
     height: 600px;
     left: -5px;
     background: white;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 30px;
     text-align: center;
-    margin-left: -5px;
-    border: solid 1px blue;
-
 }
 .container {
   width: 100%;
@@ -381,9 +376,8 @@ background: black;
 }
 .pie
 {
-    width: 98%;
+    width: 100%;
     height: 220px;
-    margin-left: -8px;
     background: black;
     color: white;
     display: inline-block;
@@ -447,9 +441,7 @@ margin-left: 33%;
         justify-content: space-between;
         background: black;
         color: white;
-        margin-left: -8px;
-        margin-top: -8px;
-        width: 98%;
+        width: 100%;
         height: 90px;
     }
     .icono_menu
@@ -565,13 +557,12 @@ background: black;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 30px;
     text-align: center;
-    width: 96%;
+    width: 100%;
     height: 1050px;
     margin-top: 10px;
     margin-bottom: 60px;
     display: block;
     position: relative;
-    border: solid 1px black;
 
 }
 .tarjeta1
@@ -579,7 +570,7 @@ background: black;
     width: 270px;
     height: 280px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    margin-left: 45px;
+    margin-left: 55px;
     margin-bottom: 30px;
     position: relative;
 }
@@ -606,7 +597,7 @@ background: black;
     position: static;
     color: whitesmoke;
     position: absolute;
-    top: 130px;
+    top: 110px;
     left: 50px;
     background-color: rgba(50, 49, 49, 0.425);
     border-bottom: 3px solid whitesmoke;
@@ -633,7 +624,7 @@ background: black;
     width: 270px;
     height: 280px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    margin-left: 45px;
+    margin-left: 55px;
     margin-bottom: 30px;
     
 }
@@ -653,7 +644,7 @@ background: black;
     color: whitesmoke;
     position: absolute;
     top: 510px;
-    left: 100px;
+    left: 110px;
     background-color: rgba(50, 49, 49, 0.425);
     border-bottom: 3px solid whitesmoke;
     
@@ -670,7 +661,7 @@ background: black;
     color: white;
     background-color: rgba(50, 49, 49, 0.425);
     top: 390px;
-    left: 50px;
+    left: 65px;
     position: absolute;
 
 }
@@ -679,7 +670,7 @@ background: black;
     width: 270px;
     height: 280px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    margin-left: 45px;
+    margin-left: 55px;
     margin-bottom: 40px;
 }
 .fondo3
@@ -715,25 +706,23 @@ background: black;
     color: white;
     background-color: rgba(50, 49, 49, 0.425);
     top: 700px;
-    left: 52px;
+    left: 62px;
     position: absolute;
 
 }
 .mas{
-    width: 96%;
+    width: 100%;
     height: 600px;
     left: -5px;
     background: white;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 30px;
     text-align: center;
-    border: solid 1px salmon;
 
 }
 .container {
   width: 100%;
   padding: 60px 0;
-  border: solid 1px red;
 }
 .slide-container {
   margin: 0 30px;
@@ -806,7 +795,6 @@ background: black;
 {
     width: 100%;
     height: 220px;
-    margin-left: -8px;
     background: black;
     color: white;
     display: inline-block;
